@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1>Random Dog Generator</h1>
+        <button id="generate-btn">Generate Dog</button>
+        <select id="breed-selector">
+            <option value="random">Random Breed</option>
+        </select>
+        <input type="text" id="breed-search" placeholder="Search for a breed">
+        <div id="loader" class="loader"></div>
+        <img id="dog-image" src="" alt="Random Dog">
+        <p id="dog-breed"></p>
+        <p id="breed-info"></p>
+        <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
